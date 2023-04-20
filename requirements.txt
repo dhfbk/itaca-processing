@@ -1,0 +1,5 @@
+argparse
+requests
+unidecode
+tqdm
+statsmodels
