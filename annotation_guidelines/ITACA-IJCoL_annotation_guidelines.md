@@ -7,27 +7,27 @@ tags:
 Status: ongoing
 Summary: Annotation guidelines for the IJCoL evaluation set
 ---
-# ITACA-IJCoL_annotation_guidelines
+# ITACA-eval Annotation Guidelines
 
->[!IMPORTANT] General procedure: How to annotate.
->
->In the Inception interface you will find **pre-annotated connectives**: some elements are pre-annotated following a string matching approach based on the 'extended' LICO (Lexicon of Italian Connectives, Feltracco et al. 2016 with some corrections and additions made by the ITACA team) + rule-based approach to already exclude from the pre-annotation some elements that are for sure not connectives based on their PoS-tags and dependency relations. 
->
->1. On the pre-annotated connectives: 
->1.1 decide whether it is a connective or not following the guidelines below, by toggling the Yes/No 'Is connective' button. **Do not delete the annotation!**
->1.2 decide the sense category according to the guidelines below, chose 1 category from the dropdown menu under the "sense category" layer. It is not possible for this task to choose more than 1 category. Please choose the one that you think it is most representative of the sense of the connective.
->1.3 add comments if needed.
->
->2. If the connective is not pre-annotated: annotate the connective by selecting 1(+) word and following the procedure above:
->2.1: Is connective: yes/no.
->2.2: Sense category from the dropdown menu.
->2.3: Comment if needed.  
+> [!IMPORTANT]
+> **General procedure**\
+> In the [Inception interface](https://all4ling.eurac.edu/inception/login.html) you will find **pre-annotated connectives**. The pre-annotation uses an extended version of the Lexicon of Italian Connectives (LICO, Feltracco et al. 2016) as the basis for string matching. Plain string matching is enhanced by rule-based filtering that exclude from the pre-annotated strings the strings that cannot be connectives because they have non-compatible PoS tags (e.g., _prima_ when it is an ADJ, _sia_ when it is a VERB) and dependency relations (e.g., _e_ when connects two NOUNs). All excluded tokens are retained in the Inception layer "02 - Connettivo problematico (Tint)".
+> 
+> 1. If the connective is pre-annotated:\
+> 1.1 decide whether it is a connective or not following the guidelines, by selecting Yes/No in the 'Is connective' layer. All pre-annotated strings are set to 'No' by defauls. **Do not delete the pre-annotation! Just leave it on 'No'**.\
+> 1.2 decide the sense category according to the guidelines. Choose 1 category from the dropdown menu under the "Sense category" layer. It is not possible for this task to choose more than 1 category. Please choose the one that you think it is most representative of the sense of the connective. For polysemic connectives, if you are undecided between the more general and the more specific sense, go for the most specific sense.\
+> 1.3 add comments on the "Comment" layer if needed.
+> 
+> 2. If the connective is not pre-annotated:\
+> annotate the connective by selecting 1(+) word and follow the procedure above: Is connective: yes/no; sense category from the dropdown menu; add comment if needed.
+
 ## Is connective
 **Is this a connective according to Ferrari's (2021, 2024) definition?**
 
-Annotation layer: Is connective
+Annotation layer: Is connective\
 Type: Boolean (yes/no)
 
+### Definition
 We report here Ferrari's (2021) definition of connective and further specifications from the "Dizionario di linguistica del testo a uso delle scienze umane" (Ferrari, a cura di, 2024).
 
 From Ferrari (2021: 145-146): *Che cosa sono i connettivi?* 
@@ -39,7 +39,7 @@ Here we have a 'positive' definition that identifies a:
 
 >Da questa definizione conseguono **due dati di carattere negativo**. Il primo è che non vanno considerati connettivi elementi che, pur essendo parole grammaticali invariabili, non indicano relazioni logico-argomentative: si pensa paradigmaticamente agli introduttori delle subordinate completive (che, di ecc.) e a quelli delle subordinate relative. In questa prospettiva, non sono connettivi neppure le preposizioni che indicano relazioni tra entità semantiche di primo grado, come persone, animali, cose, astrazioni (il nostro istituto è subito dopo l’incrocio). Il secondo dato è che non vanno considerate connettivi quelle espressioni che, pur essendo associate a una relazione logico-argomentativa, sono morfologicamente variabili: da ciò discende che, per questo fatto, la conseguenza è che, la causa? ecc.
 
-From Ferrari (2024): *Connettivo*
+From Ferrari (2024: 51-52): *Connettivo*
 
 > Combinando la caratteristica semantica del valore logico-argomentativo con la caratteristica formale dell'**invariabilità morfosintattica**, la definizione di connettivo ha due importanti conseguenze. La prima è che non vanno considerati connettivi elementi che, pur essendo parole grammaticali, invariabili, non indicano relazioni logico-argomentative: si pensi paradigmaticamente agli introduttori delle subordinate completive (*che, di* ecc.) e a quelli delle subordinate relative. La seconda conseguenza è che non vanno considerate connettivi quelle espressioni che, pur essendo associate a una relazione logico-argomentativa, sono morfologicamente variabili: *da ciò discende che*, *per questo fatto*, *la conseguenza è che*, *la causa?* ecc. In quest'ultimo caso, si può parlare di para-connettivi.
 
@@ -52,13 +52,15 @@ From Ferrari (2024): *Connettivo*
 > Not only there should be no variation at the word level (i.e., no possibility for inflection), but also no variation at the syntagm/phrase level (e.g., no possibility for insertion and possibly synonymic variation).
 > A classical example is the prepositional phrase *per questo motivo*: it can be inflected (*per questi motivi*) and is not syntagmatically fixed, linguistic material can be inserted as in *per tutti questi motivi*. There is also some paradigmatic variation as in *per questa ragione, per questo fatto.
 
+#### Morphosyntactic categories:
+
 >Per quanto riguarda la loro forma linguistica, i connettivi appartengono a classi morfosintattiche diverse. Possono essere congiunzioni o locuzioni congiuntive subordinanti (perché, se, mentre, quando ecc.); congiunzioni coordinanti (e, o, ma ecc.); avverbi o sintagmi nominali o preposizionali con funzione avverbiale (infatti, dunque, per esempio, di conseguenza, insomma, in ogni caso, tutto sommato, in particolare, ciononostante, difatti ecc.); preposizioni o locuzioni preposizionali (per, a causa di ecc.).
 
-Morphosyntactic categories:
 * CONJ (SCONJ or CCONJ)
 * ADV (or MWE with ADV function)
 * PREP (or MWE with PREP)
 
+#### Relational component: *what are the 'arguments' of a connective*?
 >Come indica la definizione iniziale, la relazione logico-argomentativa associata ai connettivi può collegare gli **eventi** evocati dal testo (azioni, atti, processi, accadimenti, stati), come nell’enunciato *Si sente male perché ha mangiato troppo*, o **atti linguistici di composizione testuale**, come per esempio quando si esprime una consecuzione inferenziale (*Non c’è la sua macchina, quindi è uscito*) o una rettifica (*mi pare un bel lavoro, anzi è perfetto*). Ci sono autori che per il primo caso parlano di «operatori» o di «connettivi semantici», mentre per il secondo di «connettivi pragmatici»: altrove si sceglie l’accezione ampia –  si parla cioè di connettivi tout court –, distinguendo solo quando è necessario.
 
 >Le istruzioni offerte dal connettivo hanno una componente relazionale e una componente concettuale. Da una parte, esse indicano all’interlocutore di collegare il contenuto dell’**unità linguistica** in cui compaiono (**sintagma, frase, enunciato**) con il contesto, che a seconda dei casi sarà linguistico o extralinguistico; 
@@ -67,7 +69,6 @@ Morphosyntactic categories:
 >In Ferrari (2024), entry *Connettivo*, there is a small different in relation with what is to be linked by connectives.
 >"Le istruzioni offerte dal connettivo si articolano in una componente relazionale e una componente concettuale. Da una parte indicano all’interlocutore di collegare **le unità del testo** -- a seconda dei casi, **unità informative, enunciati, movimenti testuali** -- e dall'altra codificano il concetto che definisce il tipo di relazione logico-argomentativa veicolata [...]"
 
-Relational component: *what are the 'arguments' of a connective*?
 * events
 * linguistic acts of textual composition (inference, correction, etc.)
 
@@ -81,13 +82,14 @@ Encoded in (from Ferrari (2024), see Ferrari (2024) for complete definitions):
 >Particular attention should be thus be devoted to segmenting the text in textual units based on function and not on form.
 
 ## Semantic category
-**Which sense does the connective express?**
+**Which sense does the connective express?**\
 To annotate only if the connective is a connective according to Ferrari's (2021,2024) definitions.
 
-Annotation layer: Semantic category
+Annotation layer: Semantic category\
 Type: Tagset (see below)
+
 ### The tagset from the PDTB-3
-The PDTB-3 (Penn Discourse Treebank v.3) tagset is used for defining a closed class of senses to be assigned to connectives. The tagset of senses is organized hierarchically. The top level, or *class level*, has four tags representing four major semantic classes: “TEMPORAL”, “CONTINGENCY”, “COMPARISON” and “EXPANSION”. For each class, a second level of types is defined to further refine the semantics of the class levels. The original tagset has also a third level, but for our goals it seems too fine-grained. In what follows we synthesize the PDTB-3 guidelines [@Webber2019Penn] with helpers for the specific task of annotating an Italian dataset of student essays.
+The PDTB-3 (Penn Discourse Treebank v.3) tagset is used for defining a closed class of senses to be assigned to connectives. The tagset of senses is organized hierarchically. The top level, or *class level*, has four tags representing four major semantic classes: “TEMPORAL”, “CONTINGENCY”, “COMPARISON” and “EXPANSION”. For each class, a second level of types is defined to further refine the semantics of the class levels. The original tagset has also a third level, but for our goals it seems too fine-grained. In what follows we synthesize the PDTB-3 guidelines (Webber et al. 2019) with helpers for the specific task of annotating an Italian dataset of student essays.
 #### Temporal
 Two situations are temporally connected
 * **Synchronous**: some degree of temporal overlap between the events described (es. typically *mentre*, *quando*).
@@ -100,13 +102,15 @@ The situation described by one argument provides the reason, explanation or just
 * **Purpose**: one argument presents an action that an AGENT undertakes with the purpose of the GOAL conveyed by the other argument being achieved (es. typically *affinché*).
 
 >[!TIP]
-> The PREP *per* is very difficult to filter out, so all *per* have been pre-annotated. Be particularly careful when deciding whether it is a connective according to Ferrari's definitions. It should be noted that *per* is often paired with an Infinitive to express purpose. However, this construction can also have other contingency meanings as in: *Ecco la situazione in cui mi trovo, per essere stato troppo buono* (CONTINGENCY:Cause). In these cases we consider it a connective, even though it is very likely that the whole construction (per + Inf) is conveying the CONTINGENCY meaning.
+>**The case of 'per'**\
+>The PREP *per* is very difficult to filter out, so all *per* have been pre-annotated. Be particularly careful when deciding whether it is a connective according to Ferrari's definitions. It should be noted that *per* is often paired with an Infinitive to express purpose. However, this construction can also have other contingency meanings as in: *Ecco la situazione in cui mi trovo, per essere stato troppo buono* (CONTINGENCY:Cause). In these cases we consider it a connective, even though it is very likely that the whole construction (per + Inf) is conveying the CONTINGENCY meaning.
 #### Comparison
 * **Contrast**: at least two differences between Arg1 and Arg2 are highlighted (es. *al contrario*, *bensì*).
 * **Similarity**: one or more similarities between Arg1 and Arg2 are highlighted with respect to what each argument predicates as a whole or to some entities it mentions (es. *allo stesso modo*).
 * **Concession**: a causal relation expected on the basis of one argument is cancelled or denied by the situation described in the other (es. prototypically *tuttavia*).
 
->[!TIP] How to choose between Contrast and Concession?
+>[!TIP]
+>How to choose between Contrast and Concession?
 >1. Are at least two explicit differences highlighted between the arguments?
 >2. If no, select Concession.
 >3. If yes, check whether a causal relation that is expected on the basis of one argument is denied by the other. (Test by paraphrasing with eng. *although*, it. *anche se* or *nonostante*)
@@ -119,12 +123,14 @@ Relations that expand the discourse and move its narrative or exposition forward
 * **Equivalence**: both arguments are taken to describe the same situation, but from different perspectives (es. typically *cioè*).
 * **Instantiation**: one argument describes a situation as holding in a set of circumstances, while the other argument describes one or more of those circumstances (es. typically *ad/per esempio*).
 
->[!WARNING] The case of 'infatti'
+>[!WARNING]
+>**The case of 'infatti'**\
 >The connective 'infatti' is labeled in LICO as EXPANSION:Instantiation, however its meaning can also be well described in the realm of CONTINGENCY:Cause (it is usually used as justification). Ferrari (2014) lists it under 'relazione di motivazione'.
 >
 >TBD: infatti, difatti, etc. should be labeled under CONTINGENCY:Cause or EXPANSION:Instantiation? Or should we decide case by case?
 
-> [!WARNING] The case of 'come'
+> [!WARNING]
+> **The case of 'come'**\
 > 'come' is labelled in LICO as only having the TEMPORAL:Synchronous relation. However it can serve at least one more sense, i.e., the one of Instantiation when used in pair with *per/ad esempio*. *A parer mio la Didattica Digitale limita molte cose, come ad esempio la bravura di uno studente la voglia di impegnarsi e ti toglie molte opportunità che solo da studente puoi fare*
 > 
 > TBD: consideriamo queste 'liste' introdotte da 'come' o 'come per esempio' come unità informative? 
@@ -165,7 +171,8 @@ From Ferrari (2021: 147):
 
 As Ferrari (2021: 147) duly notes, to identify the sense carried by the connective it **is not enough to assign it to its prototypical meaning**. Its meaning must be inferred from the semantics of the arguments linked by the connective and the linguistic and extralinguistic context.
 
->[!TIP] The case of 'e'
+>[!TIP]
+>**The case of 'e'**\
 >The coordinate conjunction *e* is a highly polysemic connectives. Dictionaries and treebanks record this polysemy by assigning to it various senses, depending on the context in which the *e* is found. Here we attach a table with senses recorded by widely used Italian dictionaries.
 
 | connettivo | Dictionaries labels   | PDTB                             | Treccani | Sabatini-Coletti | De Mauro | LICO |
@@ -178,10 +185,13 @@ As Ferrari (2021: 147) duly notes, to identify the sense carried by the connecti
 | e          | conseguenza           | Contingency:Cause:Result         |          | x                |          |      |
 | e          | scopo                 | Contingency:Cause:Result + goal  |          | x                |          |      |
 
+>[!TIP]
+>**The case of 'e' + CONTINGENCY:Cause connectives**\
+>In Italian student essays is very common to find CONTINGENCY:Cause relations marked by a polysemic 'e' further specified by a more specialized connective (es. _e di conseguenza_, _e quindi_). In these cases, since the 'specific' meaning is carried by the more specialized connective, the 'e' should be labeled as simply EXPANSION:Conjunction. 
+
 ## Comment
 This field is there to contain everything the annotator would like to point out: doubts on the belonging of the string to the connective class, doubts on the sense category or more fine grained information about the sense category, as well as semantic/syntactic problems with how the connective is used by the writer.
 
 ---
 # References
-
 - [ ] #todo add references
