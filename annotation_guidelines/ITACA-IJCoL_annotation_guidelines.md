@@ -123,17 +123,15 @@ Relations that expand the discourse and move its narrative or exposition forward
 * **Equivalence**: both arguments are taken to describe the same situation, but from different perspectives (es. typically *cioè*).
 * **Instantiation**: one argument describes a situation as holding in a set of circumstances, while the other argument describes one or more of those circumstances (es. typically *ad/per esempio*).
 
->[!WARNING]
+>[!TIP]
 >**The case of 'infatti'**\
->The connective 'infatti' is labeled in LICO as EXPANSION:Instantiation, however its meaning can also be well described in the realm of CONTINGENCY:Cause (it is usually used as justification). Ferrari (2014) lists it under 'relazione di motivazione'.
->
->TBD: infatti, difatti, etc. should be labeled under CONTINGENCY:Cause or EXPANSION:Instantiation? Or should we decide case by case?
+>The connective 'infatti' is labeled in LICO as EXPANSION:Instantiation, however its meaning can also be well described in the realm of CONTINGENCY:Cause (it is usually used as justification). Ferrari (2014) lists it under 'relazione di motivazione'. We decide to align to the labeling with CONTINGENCY:Cause and use EXPANSION:Instantiation only when there are deviation from the usual way of using the connective.
 
 > [!WARNING]
 > **The case of 'come'**\
 > 'come' is labelled in LICO as only having the TEMPORAL:Synchronous relation. However it can serve at least one more sense, i.e., the one of Instantiation when used in pair with *per/ad esempio*. *A parer mio la Didattica Digitale limita molte cose, come ad esempio la bravura di uno studente la voglia di impegnarsi e ti toglie molte opportunità che solo da studente puoi fare*
 > 
-> TBD: consideriamo queste 'liste' introdotte da 'come' o 'come per esempio' come unità informative? 
+> TBD: consideriamo queste 'liste' introdotte da 'come' o 'come per esempio' come unità informative? -> Chiedere Angela/Filippo
  
 * **Level-of-detail**: both arguments describe the same situation, but in less or more detail (es. typically *in conclusione*, *in sintesi*).
 
@@ -144,9 +142,9 @@ Relations that expand the discourse and move its narrative or exposition forward
 * **Exception**: one argument evokes a set of circumstances in which the described situation holds, and the other argument indicates one or more instances where it doesn’t (es. *eccetto*, *tranne*).
 * **Manner**: the situation described by one argument presents the manner in which the situation described by other argument has happened or been done. Manner answers “how” questions such as “How were the children playing?”. While Manner may be the only relation that holds between two arguments, it is often the case that another sense (Purpose, Result or Condition) is taken to hold as well.
 
->[!WARNING]
->LICO does not list any connectives under "Manner". The english PDTB-3 exemplifies manner relations as introduced by 'thereby' and 'by'. In Italian, 'by' with Manner sense, is usually translated by a gerund; 'thereby' is usually translated as 'in modo da' or 'così da'.
->TBD: since LICO labels 'in modo da' as a variant of 'di modo che' with sense CONTINGENCY:Cause:Result, decide whether we want to follow this decision or to annotate differently.
+>[!TIP]
+>LICO does not list any connectives under "Manner". The english PDTB-3 exemplifies manner relations as introduced by 'thereby' and 'by'. In Italian, 'by' with Manner sense, is usually translated by a gerund; 'thereby' is usually translated as 'in modo da' or 'così da'.\
+>We follow LICO decision of annotating 'in modo da' and 'così da/così che' with sense CONTINGENCY:Cause:Result.
 #### Useful resources:
 
 Check prototypical/possible senses of connectives:
