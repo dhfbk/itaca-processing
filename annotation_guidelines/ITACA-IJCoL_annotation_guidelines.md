@@ -125,7 +125,7 @@ Relations that expand the discourse and move its narrative or exposition forward
 
 >[!TIP]
 >**The case of 'infatti'**\
->The connective 'infatti' is labeled in LICO as EXPANSION:Instantiation, however its meaning can also be well described in the realm of CONTINGENCY:Cause (it is usually used as justification). Ferrari (2014) lists it under 'relazione di motivazione'. We decide to align to the labeling with CONTINGENCY:Cause and use EXPANSION:Instantiation only when there are deviation from the usual way of using the connective.
+>The connective 'infatti' is labeled in LICO as EXPANSION:Instantiation, however its meaning can also be well described in the realm of CONTINGENCY:Cause (it is usually used as justification). Ferrari (2014) lists it under 'relazione di motivazione'. We decide to align to Ferrari's proposal and we label 'infatti' with CONTINGENCY:Cause. We will use EXPANSION:Instantiation only when there are deviations in the way the connective is usually used.
 
 > [!WARNING]
 > **The case of 'come'**\
