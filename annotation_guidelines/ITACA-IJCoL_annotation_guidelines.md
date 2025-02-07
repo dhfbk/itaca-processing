@@ -127,11 +127,12 @@ Relations that expand the discourse and move its narrative or exposition forward
 >**The case of 'infatti'**\
 >The connective 'infatti' is labeled in LICO as EXPANSION:Instantiation, however its meaning can also be well described in the realm of CONTINGENCY:Cause (it is usually used as justification). Ferrari (2014) lists it under 'relazione di motivazione'. We decide to align to Ferrari's proposal and we label 'infatti' with CONTINGENCY:Cause. We will use EXPANSION:Instantiation only when there are deviations in the way the connective is usually used.
 
-> [!WARNING]
+> [!TIP]
 > **The case of 'come'**\
-> 'come' is labelled in LICO as only having the TEMPORAL:Synchronous relation. However it can serve at least one more sense, i.e., the one of Instantiation when used in pair with *per/ad esempio*. *A parer mio la Didattica Digitale limita molte cose, come ad esempio la bravura di uno studente la voglia di impegnarsi e ti toglie molte opportunità che solo da studente puoi fare*
-> 
-> TBD: consideriamo queste 'liste' introdotte da 'come' o 'come per esempio' come unità informative? -> Chiedere Angela/Filippo
+> 'come' is labelled in LICO as only having the TEMPORAL:Synchronous relation. However it can serve at least one more sense, i.e., the one of Instantiation when used in pair with *per/ad esempio*. *A parer mio la Didattica Digitale limita molte cose, come ad esempio la bravura di uno studente la voglia di impegnarsi e ti toglie molte opportunità che solo da studente puoi fare*.
+> "Sometimes the relation of Instantiation seems to lack the requirement of the eventive nature of the arguments, as in *Per poter seguire le lezioni dalla propria casa, è sicuramente necessario possedere un dispositivo elettronico, come ad esempio un computer o un cellulare, dotato di una buona connessione a internet.* (it is clear that a computer or a mobile phone are not events). However, following Manzotti, we identify a relation of textual composition: a computer or a mobile phone stands for [possessing] a computer or a mobile phone. Thus we are still in the presence of a fully-fledged logical-argumentative relation." (Pecorari, personal communication).
+
+Translated with DeepL.com (free version)
  
 * **Level-of-detail**: both arguments describe the same situation, but in less or more detail (es. typically *in conclusione*, *in sintesi*).
 
