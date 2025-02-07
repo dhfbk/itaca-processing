@@ -66,7 +66,7 @@ From Ferrari (2024: 51-52): *Connettivo*
 >Le istruzioni offerte dal connettivo hanno una componente relazionale e una componente concettuale. Da una parte, esse indicano all’interlocutore di collegare il contenuto dell’**unità linguistica** in cui compaiono (**sintagma, frase, enunciato**) con il contesto, che a seconda dei casi sarà linguistico o extralinguistico; 
 
 >[!note] 
->In Ferrari (2024), entry *Connettivo*, there is a small different in relation with what is to be linked by connectives.
+>In Ferrari (2024), entry *Connettivo*, there is a small difference in relation with what is to be linked by connectives.
 >"Le istruzioni offerte dal connettivo si articolano in una componente relazionale e una componente concettuale. Da una parte indicano all’interlocutore di collegare **le unità del testo** -- a seconda dei casi, **unità informative, enunciati, movimenti testuali** -- e dall'altra codificano il concetto che definisce il tipo di relazione logico-argomentativa veicolata [...]"
 
 * events
