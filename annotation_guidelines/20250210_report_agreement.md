@@ -2,7 +2,7 @@
 
 ## Disagreement type 1:
 
-Scope of the adverbial.\
+**Scope of the adverbial**\
 Check the scope of the adverbial: is the scope of the adverbial an event/act of textual composition?
 
 text_id: AC20PA_BAZ14M\
@@ -21,7 +21,7 @@ text: Ormai chi non gira con un telefono in mano o non fa ricerche su dispositiv
 
 * morphosyntactically invariable: yes.
 * Morphosynt category: CCONJ.
-* Do they connect events/acts of textual composition? I would say yes: event A) 'girare con un telefono in mano' is presented as an alternative of B) 'fare ricerche su dispositivi elettronici'.
+* Do they connect events/acts of textual composition? I would say yes: event A *girare con un telefono in mano* is presented as an alternative of B *fare ricerche su dispositivi elettronici*.
 * Are they different textual units? I would say yes because there is an ellipsis of the 'essere' verb: *chi [è che] non gira con un telefono in mano o [chi è che] non fa ricerche [...].* If it was: *chi non gira con un telefono in mano o non fa ricerche [...] è un boomer* I would not have signaled.
 
 text_id: AC20PA_MOH28R\
@@ -36,8 +36,8 @@ text: Ma l'uso di questi utensili, a lungo andare, in modo continuo inseparabilm
 
 * morphosyntactically invariable: sì.
 * Morphosynt category: SCONJ.
-* Do they connect events/acts of textual composition? I would say yes. A) *l'uso di questi utensili porta a molte difficoltà* especially when condition B) realizes *l'essere direttamente collegate con un'apprensione (???) a distanza.*
-* Sono unità informative/enunciati diversi? I would say yes because there is a comma.
+* Do they connect events/acts of textual composition? I would say yes. A *l'uso di questi utensili porta a molte difficoltà* especially when condition B realizes *l'essere direttamente collegate con un'apprensione (???) a distanza.*
+* Are they different textual units? I would say yes because there is a comma.
 
 text_id: AL07BN_BAS27F\
 sentence: 34\
@@ -46,7 +46,7 @@ text: Molte volte i professori non capivano il peso di una lezione sugli student
 *viceversa* is very peculiar, because it always implicitates its argument. TBD how to treat it.
 
 ### Disagreement subtype 2.1:
-Conjoined VPs (sintagmi verbali coordinati):
+**Conjoined VPs** (sintagmi verbali coordinati):
 
 text_id: AC20PA_BAZ14M\
 sentence: 10\
