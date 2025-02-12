@@ -81,6 +81,30 @@ Encoded in (from Ferrari (2024), see Ferrari (2024) for complete definitions):
 >Students' texts are not exactly “standard” or “neo-standard” in all their realisations. Especially in punctuation and particularly in signalling the utterance boundary, other systematic organisational criteria seem to come into play. The same tendency was also noted by Roggia (2010):«il punto fermo è utilizzato come segnale di delimitazione di unità testuali più ampie dell’enunciato: è cioè spostato gerarchicamente in alto, verso la funzione di delimitare le macrounità testuali, lasciando alla pura intonazione endofasica (ma occasionalmente anche alla virgola) la funzione di delimitare unità di ordine inferiore» (Roggia, 2010: 203).
 >Particular attention should be thus be devoted to segmenting the text in textual units based on function and not on form.
 
+>[!TIP]
+>**Conjoined VPs**
+>In what follows we report Ferrari & Moretti's (2023: 37-38) guidelines to textual architecture inside the utterance (Enunciato) and in particular in the case of two conjoined clauses: Quando la reggente è costituita da due coordinate, riguardo alla seconda coordinata ci sono tre possibilità. 1. Forma un secondo nucleo, come nel caso precedente: in questo caso tra le due coordinate compare tipicamente una virgola o un punto e virgola o una lineetta singola, anche in combinazione con la congiunzione e. 2. Si accorpa al primo nucleo senza costituire un’unità informativa indipendente, come in Federico studia musica e gioca in una squadra di calcio. In questo caso, tra le due coordinate non compare nessun segno interpuntivo. 3. È un’appendice, cosa – peraltro piuttosto rara – che avviene nel caso in cui sia racchiusa tra due lineette o due parentesi (Federico è stato espulso dalla squadra (ed era una cosa aspettata)). 
+
+>[!TIP]
+>**Subordination**
+>In what follows we report Ferrari & Moretti's (2023: 38-39) guidelines to textual architecture inside the utterance (Enunciato) and in particular in the case of subordination: Per quanto riguarda la subordinazione, vanno distinti i vari tipi.
+>1. Le completive del nome non hanno autonomia informativa, e dunque non possono mai essere un nucleo, né peraltro un quadro o un’appendice. 
+>2. Quando seguono la loro reggente, le subordinate argomentali veicolano tipicamente informazioni nucleari: le proposizioni che le reggono sono infatti spesso deputate ad esprimere verbi di dire o vari atteggiamenti proposizionali (sapere, essere convinti, temere, sperare, essere felici ecc.). Così, nell’esempio *Sono molto contenta. Federico mi ha confermato che lavorerà con me*, l’informazione nucleare che spiega il contenuto del primo enunciato è che Federico lavorerà con il locutore. [...]
+>3. Quanto alle relative, va osservato anzitutto che esse entrano nella dinamica informativa qui in esame solo se sono appositive: le restrittive fanno tutt’uno con l’antecedente, non sono unità informative autonome. Le relative appositive, dal canto loro, tendono a non essere nuclei. [...]
+>4. Per quanto riguarda le circostanziali, esse non possono coincidere con un nucleo quando aprono l’enunciato e quando occupano una posizione inserita all’interno della reggente: Se viene Amelia, Federico sarà sicuramente contento; Federico, se viene Amelia, sarà sicuramente felice. [...] Quando le circostanziali chiudono l’enunciato, hanno invece tre possibilità informative:
+> * possono essere appendici (ci torneremo);
+> * possono essere secondi nuclei, come mostra la sequenza *Amelia non può accettare, perché Federico ci resterebbe troppo male. Questo lei lo sa*, in cui il contenuto della causale è tematizzato attraverso l’incapsulatore questo nell’enunciato successivo;
+> * possono essere integrate nel nucleo precedente: *Amelia è ipersensibile. Ci è rimasta male solo perché Federico l’ha salutata per seconda*. Ciò che spiega il giudizio attribuito ad Amelia non è né il contenuto della reggente da solo né il contenuto della subordinata da solo: è in gioco complessivamente il legame di causa ad effetto tra i due fatti evocati.
+
+>[!TIP]
+>**Adverbial clauses as appendix**
+>From Ferrari & Moretti (2023:42): Per quanto riguarda la semantica lessicale – se non sono in posizione incipitaria nel qual caso sarebbero quadri – vanno considerati appendici tutti gli avverbiali di frase pragmatici e di atteggiamento proposizionale come probabilmente, purtroppo, francamente ecc., e tutti connettivi (cioè, infatti, dunque, comunque, di fatto ecc.). La punteggiatura, in questo primo caso, non importa. Passando alla struttura sintattico-interpuntiva, tendono a essere appendici quei costituenti che occupano una posizione inserita all’interno della frase e che sono racchiusi da due virgole o lineette. [...] L’interpretazione informativa dei costituenti che chiudono l’enunciato è ancora più difficile. Ci sono in generale tre possibilità.
+>1. Il costituente non costituisce un’unità informativa autonoma, e fa dunque tutt’uno con l’unità che lo precede: *In questo momento Federico è molto nervoso. Lo è perché deve superare l’esame di matematica.*
+>2. Il costituente coincide con un’unità informativa di nucleo, che si aggancia al nucleo precedente: *Ad Amelia darei un ottimo voto. Anzi, le darei il massimo, / perché occorre premiare il suo incredibile miglioramento. / Un miglioramento che non era certo scontato.*
+>3. Il costituente coincide con un’appendice del nucleo che precede: *Sono molto fiera di Amelia. Ha ottenuto il massimo dei voti, anche se stavolta la sua maestra ha piuttosto largheggiato. È la prima volta che ha un simile successo.*
+>Quando il costituente conclusivo è breve, l’assenza della virgola significa integrazione informativa, mentre la sua presenza equivale ad autonomia informativa.
+
+
 ## Semantic category
 **Which sense does the connective express?**\
 To annotate only if the connective is a connective according to Ferrari's (2021,2024) definitions.
@@ -104,6 +128,7 @@ The situation described by one argument provides the reason, explanation or just
 >[!TIP]
 >**The case of 'per'**\
 >The PREP *per* is very difficult to filter out, so all *per* have been pre-annotated. Be particularly careful when deciding whether it is a connective according to Ferrari's definitions. It should be noted that *per* is often paired with an Infinitive to express purpose. However, this construction can also have other contingency meanings as in: *Ecco la situazione in cui mi trovo, per essere stato troppo buono* (CONTINGENCY:Cause). In these cases we consider it a connective, even though it is very likely that the whole construction (per + Inf) is conveying the CONTINGENCY meaning.
+
 #### Comparison
 * **Contrast**: at least two differences between Arg1 and Arg2 are highlighted (es. *al contrario*, *bensì*).
 * **Similarity**: one or more similarities between Arg1 and Arg2 are highlighted with respect to what each argument predicates as a whole or to some entities it mentions (es. *allo stesso modo*).
