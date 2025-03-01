@@ -14,7 +14,7 @@ Summary: Annotation guidelines for the IJCoL evaluation set
 > In the [Inception interface](https://all4ling.eurac.edu/inception/login.html) you will find **pre-annotated connectives**. The pre-annotation uses an extended version of the Lexicon of Italian Connectives (LICO, Feltracco et al. 2016) as the basis for string matching. Plain string matching is enhanced by rule-based filtering that exclude from the pre-annotated strings the strings that cannot be connectives because they have non-compatible PoS tags (e.g., _prima_ when it is an ADJ, _sia_ when it is a VERB) and dependency relations (e.g., _e_ when connects two NOUNs). All excluded tokens are retained in the Inception layer "02 - Connettivo problematico (Tint)".
 > 
 > 1. If the connective is pre-annotated:\
-> 1.1 decide whether it is a connective or not following the guidelines, by selecting Yes/No in the 'Is connective' layer. All pre-annotated strings are set to 'No' by defauls. **Do not delete the pre-annotation! Just leave it on 'No'**.\
+> 1.1 decide whether it is a connective or not following the guidelines, by selecting Yes/No in the 'Is connective' layer. All pre-annotated strings are set to 'Yes' by defauls. **Do not delete the pre-annotation! Just set it to 'No'**.\
 > 1.2 decide the sense category according to the guidelines. Choose 1 category from the dropdown menu under the "Sense category" layer. It is not possible for this task to choose more than 1 category. Please choose the one that you think it is most representative of the sense of the connective. For polysemic connectives, if you are undecided between the more general and the more specific sense, go for the most specific sense.\
 > 1.3 add comments on the "Comment" layer if needed.
 > 
@@ -31,7 +31,7 @@ Type: Boolean (yes/no)
 We report here Ferrari's (2021) definition of connective and further specifications from the "Dizionario di linguistica del testo a uso delle scienze umane" (Ferrari, a cura di, 2024).
 
 From Ferrari (2021: 145-146): *Che cosa sono i connettivi?* 
->Il termine connettivo indica ciascuna delle **forme linguistiche morfologicamente invariabili** che offrono istruzioni su come legare gli **eventi** evocati dal testo o gli **atti linguistici di composizione testuale** attraverso **relazioni logico-argomentative** quali la causa, la consecuzione, la riformulazione, l’esemplificazione, la concessione, l’opposizione ecc. La definizione combina dunque una caratteristica di tipo semantico-comunicativo –  l’istruzione offerta all’interlocutore  – con una caratteristica di tipo formale – l’invariabilità morfologica.
+>Il termine connettivo indica ciascuna delle **forme linguistiche morfologicamente invariabili** che offrono istruzioni su come legare gli **eventi** evocati dal testo o gli **atti linguistici di composizione testuale** attraverso **relazioni logico-argomentative** quali la causa, la consecuzione, la riformulazione, l’esemplificazione, la concessione, l’opposizione ecc. La definizione combina dunque una caratteristica di tipo semantico-comunicativo –  l’istruzione offerta all’interlocutore  – con una caratteristica di tipo formale –l’invariabilità morfologica.
 
 Here we have a 'positive' definition that identifies a:
 * Formal criterion: morphologically invariable forms -> and probably also morphosyntactically invariable forms.
@@ -50,7 +50,7 @@ From Ferrari (2024: 51-52): *Connettivo*
 
 > [!NOTE] 
 > Not only there should be no variation at the word level (i.e., no possibility for inflection), but also no variation at the syntagm/phrase level (e.g., no possibility for insertion and possibly synonymic variation).
-> A classical example is the prepositional phrase *per questo motivo*: it can be inflected (*per questi motivi*) and is not syntagmatically fixed, linguistic material can be inserted as in *per tutti questi motivi*. There is also some paradigmatic variation as in *per questa ragione, per questo fatto.
+> A classical example is the prepositional phrase *per questo motivo*: it can be inflected (*per questi motivi*) and is not syntagmatically fixed, linguistic material can be inserted as in *per tutti questi motivi*. There is also some paradigmatic variation as in *per questa ragione, per questo fatto*.
 
 #### Morphosyntactic categories:
 
@@ -63,50 +63,24 @@ From Ferrari (2024: 51-52): *Connettivo*
 #### Relational component: *what are the 'arguments' of a connective*?
 >Come indica la definizione iniziale, la relazione logico-argomentativa associata ai connettivi può collegare gli **eventi** evocati dal testo (azioni, atti, processi, accadimenti, stati), come nell’enunciato *Si sente male perché ha mangiato troppo*, o **atti linguistici di composizione testuale**, come per esempio quando si esprime una consecuzione inferenziale (*Non c’è la sua macchina, quindi è uscito*) o una rettifica (*mi pare un bel lavoro, anzi è perfetto*). Ci sono autori che per il primo caso parlano di «operatori» o di «connettivi semantici», mentre per il secondo di «connettivi pragmatici»: altrove si sceglie l’accezione ampia –  si parla cioè di connettivi tout court –, distinguendo solo quando è necessario.
 
->Le istruzioni offerte dal connettivo hanno una componente relazionale e una componente concettuale. Da una parte, esse indicano all’interlocutore di collegare il contenuto dell’**unità linguistica** in cui compaiono (**sintagma, frase, enunciato**) con il contesto, che a seconda dei casi sarà linguistico o extralinguistico; 
-
->[!note] 
->In Ferrari (2024), entry *Connettivo*, there is a small difference in relation with what is to be linked by connectives.
->"Le istruzioni offerte dal connettivo si articolano in una componente relazionale e una componente concettuale. Da una parte indicano all’interlocutore di collegare **le unità del testo** -- a seconda dei casi, **unità informative, enunciati, movimenti testuali** -- e dall'altra codificano il concetto che definisce il tipo di relazione logico-argomentativa veicolata [...]"
+>Le istruzioni offerte dal connettivo hanno una componente relazionale e una componente concettuale. Da una parte, esse indicano all’interlocutore di collegare il contenuto dell’**unità linguistica** in cui compaiono (**sintagma, frase, enunciato**) con il contesto, che a seconda dei casi sarà linguistico o extralinguistico;
 
 * events
 * linguistic acts of textual composition (inference, correction, etc.)
 
-Encoded in (from Ferrari (2024), see Ferrari (2024) for complete definitions):
-* enunciati: risultato dell'enunciazione di un contenuto linguistico: esso è provvisto di una forza illocutiva autonoma [...] e di una funzione di composizione testuale. [...] Nella delimitazione degli enunciati ha un ruolo determinante la punteggiatura. Segni come il punto, i due punti, le parentesi, le lineette doppie, i puntini di sospensione, il punto interrogativo, il punto esclamativo introducono sistematicamente nel testo un confine di enunciato; altri segni, come il punto e virgola e la lineetta singola, possono introdurre un confine di enunciato o di unità informativa, a seconda delle caratteristiche sintattico-semantiche dei contenuti con cui si combinano. Le parentesi e le lineette doppie [...] hanno la prerogativa di racchiudere enunciati con la funzione di inciso, che si collocano su un piano secondario rispetto agli altri enunciati del testo e ne sostengono o arricchiscono il contributo. Il riempimento morfosintattico dell'enunciato è vario: nel caso più frequente esso corrisponde a una frase semplice o complessa, ma può coincidere anche con un sintagma o con una frase sintatticamente non autonoma, ad esempio nei casi di spezzatura della sintassi tramite punto fermo (*Tiziano se n'è andato. Perché si deve essere offeso*).
-* movimenti testuali: a un livello gerarchico superiore, un insieme di enunciati provvisto di unitarietà su uno dei piani dell'organizzazione del testo, costituisce un movimento testuale
-* unità informative: A un livello inferiore, l'enunciato si può articolare al suo interno in unità informative, che ne movimentano e scandiscono il contenuto. Nella loro forma prototipica, le unità informative sono scandite da virgole. ... [L]e unità informative possono collocarsi in primo piano (nucleo) o sullo sfondo comunicativo (appendice e quadro).
-
->[!TIP] 
->Students' texts are not exactly “standard” or “neo-standard” in all their realisations. Especially in punctuation and particularly in signalling the utterance boundary, other systematic organisational criteria seem to come into play. The same tendency was also noted by Roggia (2010):«il punto fermo è utilizzato come segnale di delimitazione di unità testuali più ampie dell’enunciato: è cioè spostato gerarchicamente in alto, verso la funzione di delimitare le macrounità testuali, lasciando alla pura intonazione endofasica (ma occasionalmente anche alla virgola) la funzione di delimitare unità di ordine inferiore» (Roggia, 2010: 203).
->Particular attention should be thus be devoted to segmenting the text in textual units based on function and not on form.
-
->[!TIP]
+>[!IMPORTANT]
+>The model states that connectives may also operate between propositions within the same UI (cfr. Ferrari 2014: 133; Ferrari/Lala/Zampese 2021: 108). Hence:
 >**Conjoined VPs**\
->In what follows we report Ferrari & Moretti's (2023: 37-38) guidelines to textual architecture inside the utterance (Enunciato) and in particular in the case of two conjoined clauses: "Quando la reggente è costituita da due coordinate, riguardo alla seconda coordinata ci sono tre possibilità.
->1. Forma un secondo nucleo, come nel caso precedente: in questo caso tra le due coordinate compare tipicamente una virgola o un punto e virgola o una lineetta singola, anche in combinazione con la congiunzione e.
->2. Si accorpa al primo nucleo senza costituire un’unità informativa indipendente, come in Federico studia musica e gioca in una squadra di calcio. In questo caso, tra le due coordinate non compare nessun segno interpuntivo.
->3. È un’appendice, cosa – peraltro piuttosto rara – che avviene nel caso in cui sia racchiusa tra due lineette o due parentesi (Federico è stato espulso dalla squadra (ed era una cosa aspettata))". 
-
->[!TIP]
->**Subordination**\
->In what follows we report Ferrari & Moretti's (2023: 38-39) guidelines to textual architecture inside the utterance (Enunciato) and in particular in the case of subordination: "Per quanto riguarda la subordinazione, vanno distinti i vari tipi.
->1. Le completive del nome non hanno autonomia informativa, e dunque non possono mai essere un nucleo, né peraltro un quadro o un’appendice.
->2. Quando seguono la loro reggente, le subordinate argomentali veicolano tipicamente informazioni nucleari: le proposizioni che le reggono sono infatti spesso deputate ad esprimere verbi di dire o vari atteggiamenti proposizionali (sapere, essere convinti, temere, sperare, essere felici ecc.). Così, nell’esempio *Sono molto contenta. Federico mi ha confermato che lavorerà con me*, l’informazione nucleare che spiega il contenuto del primo enunciato è che Federico lavorerà con il locutore. [...]
->3. Quanto alle relative, va osservato anzitutto che esse entrano nella dinamica informativa qui in esame solo se sono appositive: le restrittive fanno tutt’uno con l’antecedente, non sono unità informative autonome. Le relative appositive, dal canto loro, tendono a non essere nuclei. [...]
->4. Per quanto riguarda le circostanziali, esse non possono coincidere con un nucleo quando aprono l’enunciato e quando occupano una posizione inserita all’interno della reggente: *Se viene Amelia, Federico sarà sicuramente contento;* *Federico, se viene Amelia, sarà sicuramente felice.* [...] Quando le circostanziali chiudono l’enunciato, hanno invece tre possibilità informative:
->   * possono essere appendici (ci torneremo);
->   * possono essere secondi nuclei, come mostra la sequenza *Amelia non può accettare, perché Federico ci resterebbe troppo male. Questo lei lo sa*, in cui il contenuto della causale è tematizzato attraverso l’incapsulatore questo nell’enunciato successivo;
->   * possono essere integrate nel nucleo precedente: *Amelia è ipersensibile. Ci è rimasta male solo perché Federico l’ha salutata per seconda*. Ciò che spiega il giudizio attribuito ad Amelia non è né il contenuto della reggente da solo né il contenuto della subordinata da solo: è in gioco complessivamente il legame di causa ad effetto tra i due fatti evocati".
-
->[!TIP]
->**Adverbial clauses as appendix**\
->From Ferrari & Moretti (2023:42): "Per quanto riguarda la semantica lessicale – se non sono in posizione incipitaria nel qual caso sarebbero quadri – vanno considerati appendici tutti gli avverbiali di frase pragmatici e di atteggiamento proposizionale come probabilmente, purtroppo, francamente ecc., e tutti connettivi (cioè, infatti, dunque, comunque, di fatto ecc.). La punteggiatura, in questo primo caso, non importa. Passando alla struttura sintattico-interpuntiva, tendono a essere appendici quei costituenti che occupano una posizione inserita all’interno della frase e che sono racchiusi da due virgole o lineette. [...] L’interpretazione informativa dei costituenti che chiudono l’enunciato è ancora più difficile. Ci sono in generale tre possibilità.
->1. Il costituente non costituisce un’unità informativa autonoma, e fa dunque tutt’uno con l’unità che lo precede: *In questo momento Federico è molto nervoso. Lo è perché deve superare l’esame di matematica.*
->2. Il costituente coincide con un’unità informativa di nucleo, che si aggancia al nucleo precedente: *Ad Amelia darei un ottimo voto. Anzi, le darei il massimo, / perché occorre premiare il suo incredibile miglioramento. / Un miglioramento che non era certo scontato.*
->3. Il costituente coincide con un’appendice del nucleo che precede: *Sono molto fiera di Amelia. Ha ottenuto il massimo dei voti, anche se stavolta la sua maestra ha piuttosto largheggiato. È la prima volta che ha un simile successo.*
->Quando il costituente conclusivo è breve, l’assenza della virgola significa integrazione informativa, mentre la sua presenza equivale ad autonomia informativa".
-
+>Even though conjoined VPs are often not separate nucleai, we consider *e, o, ma* as a connectives even when the two coordinate clauses are merged into one UI. *Certo, come argomento di contro si potrebbe dire che non tutto ciò che è su internet è vero __o__ che tante informazioni sono veritiere solo per metà, ma ormai penso che tutti i miei coetanei riescano a riconoscere se un’informazione è sbagliata __e__ sappiamo tutti quali siti è meglio non confrontare.*
+>**Conjoined NPs**
+>Are connectives only if the SN encapsulate 'eventive' nouns, i.e., nouns that semantically express events. *Il 1 gennaio 2020 le autorità disposero la chiusura del mercato __e__ l’isolamento di coloro che presentavano segni e sintomi dell’infezione.*
+>In other cases, even if the nouns are not first order entities (e.g., *un sentimento di libertà __e__ sollievo*, *attenzione __e__ memoria*), we don't consider them connectives as they are not relevant for the textual composition of the text.
+>**Conjoined Adjectives**
+>Coordinating conjunctions conjoining adjectives are __never__ connectives.
+>**Per + infinitive**
+>*per + infinitive* constructions are often not separate UI; however, they usually express a clear purposive sense, hence 'per' is considered a connective. *In data odierna ho il piacere di scriverle questa lettera __per__ esprimere la mia opinione a riguardo alla sua decisione, in seguito alla pandemia, di estendere la didattica digitale integrata al triennio delle scuole superiori, che entrerà in vigore dall’anno prossimo.*
+>**A causa di, grazie a, per**
+>When *a causa di, grazie a, per* introduce a cause, they are always considered connectives, because whatever comes after should be interpreted as processes or states: *Tutto questo però ultimamente mi è impossibile fare a causa della scuola* = scuola=attività scolastiche; *la società che sta già soffrendo per i danni che sono stati arrecati dalla pandemia* = danni=il fatto di avere danni (result state); *ci sarà una caduta nell’apprendimento per deficit di attenzione e memoria* deficit=il fatto di avere deficit (stato del possesso di deficit).
 
 ## Semantic category
 **Which sense does the connective express?**\
@@ -179,6 +153,7 @@ Translated with DeepL.com (free version)
 >[!TIP]
 >LICO does not list any connectives under "Manner". The english PDTB-3 exemplifies manner relations as introduced by 'thereby' and 'by'. In Italian, 'by' with Manner sense, is usually translated by a gerund; 'thereby' is usually translated as 'in modo da' or 'così da'.\
 >We follow LICO decision of annotating 'in modo da' and 'così da/così che' with sense CONTINGENCY:Cause:Result.
+
 #### Useful resources:
 
 Check prototypical/possible senses of connectives:
