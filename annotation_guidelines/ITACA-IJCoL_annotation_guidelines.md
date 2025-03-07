@@ -69,17 +69,17 @@ From Ferrari (2024: 51-52): *Connettivo*
 * linguistic acts of textual composition (inference, correction, etc.)
 
 >[!IMPORTANT]
->The model states that connectives may also operate between propositions within the same UI (cfr. Ferrari 2014: 133; Ferrari/Lala/Zampese 2021: 108). Hence:
+>The model states that connectives may also operate between propositions within the same UI (cfr. Ferrari 2014: 133; Ferrari/Lala/Zampese 2021: 108). Hence:\
 >**Conjoined VPs**\
->Even though conjoined VPs are often not separate nucleai, we consider *e, o, ma* as a connectives even when the two coordinate clauses are merged into one UI. *Certo, come argomento di contro si potrebbe dire che non tutto ciò che è su internet è vero __o__ che tante informazioni sono veritiere solo per metà, ma ormai penso che tutti i miei coetanei riescano a riconoscere se un’informazione è sbagliata __e__ sappiamo tutti quali siti è meglio non confrontare.*
->**Conjoined NPs**
+>Even though conjoined VPs are often not separate nucleai, we consider *e, o, ma* as a connectives even when the two coordinate clauses are merged into one UI. *Certo, come argomento di contro si potrebbe dire che non tutto ciò che è su internet è vero __o__ che tante informazioni sono veritiere solo per metà, ma ormai penso che tutti i miei coetanei riescano a riconoscere se un’informazione è sbagliata __e__ sappiamo tutti quali siti è meglio non confrontare.*\
+>**Conjoined NPs**\
 >Are connectives only if the SN encapsulate 'eventive' nouns, i.e., nouns that semantically express events. *Il 1 gennaio 2020 le autorità disposero la chiusura del mercato __e__ l’isolamento di coloro che presentavano segni e sintomi dell’infezione.*
->In other cases, even if the nouns are not first order entities (e.g., *un sentimento di libertà __e__ sollievo*, *attenzione __e__ memoria*), we don't consider them connectives as they are not relevant for the textual composition of the text.
->**Conjoined Adjectives**
->Coordinating conjunctions conjoining adjectives are __never__ connectives.
->**Per + infinitive**
->*per + infinitive* constructions are often not separate UI; however, they usually express a clear purposive sense, hence 'per' is considered a connective. *In data odierna ho il piacere di scriverle questa lettera __per__ esprimere la mia opinione a riguardo alla sua decisione, in seguito alla pandemia, di estendere la didattica digitale integrata al triennio delle scuole superiori, che entrerà in vigore dall’anno prossimo.*
->**A causa di, grazie a, per**
+>In other cases, even if the nouns are not first order entities (e.g., *un sentimento di libertà __e__ sollievo*, *attenzione __e__ memoria*), we don't consider them connectives as they are not relevant for the textual composition of the text.\
+>**Conjoined Adjectives**\
+>Coordinating conjunctions conjoining adjectives are __never__ connectives.\
+>**Per + infinitive**\
+>*per + infinitive* constructions are often not separate UI; however, they usually express a clear purposive sense, hence 'per' is considered a connective. *In data odierna ho il piacere di scriverle questa lettera __per__ esprimere la mia opinione a riguardo alla sua decisione, in seguito alla pandemia, di estendere la didattica digitale integrata al triennio delle scuole superiori, che entrerà in vigore dall’anno prossimo.*\
+>**A causa di, grazie a, per**\
 >When *a causa di, grazie a, per* introduce a cause, they are always considered connectives, because whatever comes after should be interpreted as processes or states: *Tutto questo però ultimamente mi è impossibile fare a causa della scuola* = scuola=attività scolastiche; *la società che sta già soffrendo per i danni che sono stati arrecati dalla pandemia* = danni=il fatto di avere danni (result state); *ci sarà una caduta nell’apprendimento per deficit di attenzione e memoria* deficit=il fatto di avere deficit (stato del possesso di deficit).
 
 ## Semantic category
